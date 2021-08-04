@@ -1,5 +1,5 @@
 {
-  "family": "sample-fargate-01", 
+  "family": "sample-fargate", 
   "networkMode": "awsvpc", 
   "containerDefinitions": [
       {
