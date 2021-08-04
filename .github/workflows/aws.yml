@@ -24,8 +24,11 @@
 #    and best practices on handling the access key credentials.
 
 on:
-  release:
-    types: [created]
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 name: Deploy to Amazon ECS
 
